@@ -3,10 +3,9 @@
 An interactive **Excel-based E-Commerce Sales Analysis Dashboard** developed to transform raw transactional data into meaningful business insights.
 
 ## Dashboard Preview
-## Dashboard Preview
 
 ![E-Commerce Sales Data Analysis](images/dashboard_preview.png)
-(https://github.com/shiblidata/ecommerce-sales-analysis-excel/blob/main/images/dashboard_preview.png)
+
 ## Project Overview
 
 This project analyzes e-commerce data across **orders, customers, products and payments**.
