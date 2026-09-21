@@ -1,4 +1,4 @@
-# E-Commerce Sales Analysis Dashboard
+# E-Commerce Sales Data Analysis
 
 An interactive **Excel-based E-Commerce Sales Analysis Dashboard** developed to transform raw transactional data into meaningful business insights.
 
@@ -7,7 +7,7 @@ An interactive **Excel-based E-Commerce Sales Analysis Dashboard** developed to 
 (https://github.com/shiblidata/ecommerce-sales-analysis-excel/blob/main/images/dashboard_preview.png)
 ## Project Overview
 
-This project analyzes e-commerce data across **orders, customers, products, and payments**.
+This project analyzes e-commerce data across **orders, customers, products and payments**.
 
 The complete workflow includes:
 
@@ -43,6 +43,16 @@ Key data preparation steps included:
 Gross Sales = Quantity × Unit Price
 Discount Amount = Gross Sales × Discount
 Net Sales = Gross Sales - Discount Amount
+```
+
+Revenue was counted only when:
+
+```text
+Order Status = Completed
+AND
+Payment Status = Paid
+```
+
 ## Dashboard Highlights
 
 - **Total Revenue:** 2,978,172.55
@@ -64,20 +74,23 @@ The dashboard helps answer:
 - Which categories contribute the most revenue?
 - How does revenue change over time?
 - What is the distribution of payment statuses?
-- What is the distribution of completed, cancelled, and returned orders?
-- How does revenue change across products, payment methods, and time periods?
+- What is the distribution of completed, cancelled and returned orders?
+- How does revenue change across products, payment methods and time periods?
 
 ## Repository Structure
+
+```text
 ecommerce-sales-analysis-excel/
 │
 ├── README.md
-├── Ecommerce_Sales_Analysis_Dashboard.xlsx
+├── Ecommerce_Sales_Data_Analysis.xlsx
 ├── dashboard_preview.png
 └── data/
     ├── customers.csv
     ├── orders.csv
     ├── products.csv
     └── payments.csv
+```
 
 ## Skills Demonstrated
 
@@ -96,4 +109,4 @@ ecommerce-sales-analysis-excel/
 
 **Md. Mehedi Hasan Shibli**  
 BSc in Computer Science & Engineering  
-**Aspiring Data Analyst**
+**American International University - Bangladesh**
