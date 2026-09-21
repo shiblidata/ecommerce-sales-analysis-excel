@@ -3,7 +3,9 @@
 An interactive **Excel-based E-Commerce Sales Analysis Dashboard** developed to transform raw transactional data into meaningful business insights.
 
 ## Dashboard Preview
+## Dashboard Preview
 
+![E-Commerce Sales Data Analysis](images/dashboard_preview.png)
 (https://github.com/shiblidata/ecommerce-sales-analysis-excel/blob/main/images/dashboard_preview.png)
 ## Project Overview
 
@@ -84,12 +86,13 @@ ecommerce-sales-analysis-excel/
 │
 ├── README.md
 ├── Ecommerce_Sales_Data_Analysis.xlsx
-├── dashboard_preview.png
-└── data/
-    ├── customers.csv
-    ├── orders.csv
-    ├── products.csv
-    └── payments.csv
+├── data/
+│   ├── customers.csv
+│   ├── orders.csv
+│   ├── products.csv
+│   └── payments.csv
+└── images/
+    └── dashboard_preview.png
 ```
 
 ## Skills Demonstrated
@@ -109,4 +112,4 @@ ecommerce-sales-analysis-excel/
 
 **Md. Mehedi Hasan Shibli**  
 BSc in Computer Science & Engineering  
-**American International University - Bangladesh**
+American International University-Bangladesh (AIUB)
